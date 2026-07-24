@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+}
+
+.page {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+}
+
+.bg-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.content {
+    position: absolute;
+    top: 2%;
+    left: 5%;
+    color: white;
+    text-decoration: solid;
+}
+
+#result {
+    display: none;
+    position: absolute;
+    top: 2%;
+    right: 5%;
+    color: black;
+    width: 400px;
+    height: 80%;
+    margin-right: 10%;
+    margin-top: 2%;
+    background-color: rgb(71, 149, 201);
+    overflow-y: auto; 
+    border: 1px solid #ccc;
+}
+
+.result-img {
+    width: 100%;
+    height: auto;
+}
+
+nav {
+    background-color: lightseagreen;
+    height: 30px;
+    font-size: 1.2rem;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px 20px;
+}
+
+.person {
+    border: 1px solid #ccc;
+    display: inline-block;
+}
+
+.team-name {
+    font-weight: bolder;
+    align-items: center;
+}
